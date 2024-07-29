@@ -9,9 +9,9 @@ public class Lcm{
         int r=0;
         r+=Math.max(n1,n2);
         while (true) {
-            if((r%n1==0)&&(r%n2==0))
+            if((r%n1==0)&&(r%n2==0)){
                 break;
-            r++;
+            r++;}
         }
         System.out.println("The LCM of the numbers "+n1+" and "+n2+" is: "+r);
     }
